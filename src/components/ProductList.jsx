@@ -57,8 +57,7 @@ export default function ProductList() {
                         description={product.description}
                         price={product.price}
                         thumbnail={product.thumbnail}
-                        key={product.id}
-                        className="w-1/3 p-4" // Adjust width and padding as needed
+                        key={product.id} 
                     />
                 ))}
 

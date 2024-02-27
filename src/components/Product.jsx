@@ -1,7 +1,7 @@
 export default function Product({ title, thumbnail, price, description, className }) {
     return (
         <>
-            <div className={`w-full max-w-sm ${className} bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700`}>
+            <div className={`w-1/3  bg-white  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700`}>
                 <a href="#">
                     <img className="p-8 rounded-t-lg h-60 object-cover" src={thumbnail} alt="product image" />
                 </a>
